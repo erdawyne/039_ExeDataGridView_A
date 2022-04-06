@@ -28,7 +28,14 @@ namespace _039_ExeDataGridView_A
             this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.Brown;
             this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Maroon;
             this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.DarkBlue;
-            
+
+            //Buat Background
+            this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Pink;
+            this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
+            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
+            this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.DarkBlue;
+            this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Crimson;
+
 
         }
     }
