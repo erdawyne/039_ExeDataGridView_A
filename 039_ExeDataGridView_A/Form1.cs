@@ -23,6 +23,12 @@ namespace _039_ExeDataGridView_A
             this.mahasiswaTableAdapter1.Fill(this.prodiTIDataSet1.Mahasiswa);
             // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+            this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
+            this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.Yellow;
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.Pink;
+            this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Salmon;
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.LightBlue;
+            this.dataGridView1.Columns[5].DefaultCellStyle.ForeColor = Color.Silver;
 
         }
     }
