@@ -32,7 +32,7 @@ namespace _039_ExeDataGridView_A
             //Buat Background
             this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Salmon;
             this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
-            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Yellow;
+            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Silver;
             this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.DarkBlue;
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.Crimson;
 
