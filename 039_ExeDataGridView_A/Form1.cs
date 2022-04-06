@@ -25,9 +25,9 @@ namespace _039_ExeDataGridView_A
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
             this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
             this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.OrangeRed;
-            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.Pink;
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.Azure;
             this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Maroon;
-            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Silver;
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.DarkBlue;
             
 
         }
